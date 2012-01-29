@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slides>
+  <summary>
+    <recordx_type>dynarex</recordx_type><format_mask>[!age] [!description]</format_mask><schema>slides/slide(title, caption)</schema>
+  </summary>
+  <records>
+    <slide><time>1.5</time><anchor>a1</anchor><title>Intro</title>><caption>1. Mix it up. 2. Make it happen. 3) Just wait and see.</caption></slide>
+    <slide><time>4.5</time><anchor>a2</anchor><title>baking the cake</title><caption>Ut blandit commodo ligula, et imperdiet mauris molestie ut. Suspendisse faucibus, turpiulum dictum, nibh et malesuada pellentesque, leo o</caption></slide>
+    <slide><time>7</time><anchor>a3</anchor><title>polishing the shoes</title><caption>Etiam facilisis accumsan arcu, ut tincidunt arcu pretium sed. Integer auctor convallis lobortis. Aliquam auguelisis eu, tincidunt in elit.</caption></slide>
+    <slide><time>9.5</time><anchor>a4</anchor><title>mixing the beans</title><caption>Finishing off this should be the last part to test.</caption></slide>  
+  </records>
+</slides>
+

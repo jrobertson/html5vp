@@ -1,0 +1,87 @@
+
+      body {background-color: #467; padding: 2px; margin: 2px}
+      div#wrap{width: 640px}
+      div {
+          background-color: transparent;          
+          color : #6e9; 
+      }
+      #banner{
+        background-color: #274;
+        height: 60px;
+        opacity:0.7;
+        overflow: hidden;
+        width: 100%;
+      }
+      #caption {      
+        background-color: transparent;
+        width:500px;
+        height: 60px;
+        overflow: hidden;
+
+        position:absolute;
+        left: 140px;
+        top:5px;
+        z-index:2;
+      }
+      #caption ul {      
+        background-color: transparent;
+        list-style-type: none;
+
+      }
+
+      #caption ul li {      
+        background-color: transparent	
+      }
+      
+      #caption ul li div{      	
+        background-color: transparent;
+        padding: 1.3em 0.1em 0.1em 0.1em;
+        margin: 0.1em;
+        vertical-align: text-bottom;	
+ 	height: 70px; 
+      }
+      
+      #caption ul li div p {background-color: transparent; margin: 0; padding: 0.1em; color : #ff0;}
+      #menu{
+        background-color: transparent;
+        opacity: 0.9;
+        float: left;
+        width: 320px;        
+      }
+      #menu ol {
+        background-color: transparent;
+        margin: 2.2em;
+        padding: 2.1em;
+        overflow: hidden;
+      }
+      #menu ol li {
+        background-color: transparent; 
+
+        padding: 0.1em;
+        margin: 0.1em;
+        font: 1.7em "Passion One";
+      }
+      #menu ol li a {
+        padding: 0; margin: 0;
+        background-color: transparent;
+        text-shadow: 0 0 0.5em #87F, 0 0 0.6em #87F,
+        0 0 0.2em #87F
+      }
+
+      #menu ol li a:link {color: #839; text-decoration:none;}
+      #menu ol li a:visited {color: #ff0;text-decoration:none;}
+      #menu ol li a:hover {color: #fff;}
+      #menu ol li a:active {color: #686; text-decoration:none;}
+      #video {
+        background-color: transparent;
+        position:absolute;
+        left:4px;
+        top:5px;
+        z-index:-1;
+      }
+
+      #menu ol li.high {color: #fff; background-color: #559}
+
+ .hidden {visibility: hidden}
+  /*.hidden {visibility: visible}    */
+ .visible {visibility: visible}

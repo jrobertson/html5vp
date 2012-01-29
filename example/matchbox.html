@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dancing matchbox</title>
+    <meta charset="utf-8" />
+    <link rel='stylesheet' type='text/css' href='html5vp.css'></link>
+    <link href='http://fonts.googleapis.com/css?family=Passion+One|Squada+One' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://rorbuilder.info/j/jfr/string.js"></script>
+    <script type="text/javascript" src="http://rorbuilder.info/j/jfr/hash.js"></script>
+    <script type="text/javascript" src="http://rorbuilder.info/j/jfr/enumerable.js"></script>
+    <script type="text/javascript" src="http://rorbuilder.info/j/jfr/enumerator.js"></script>
+    <script type="text/javascript" src="http://rorbuilder.info/j/jfr/array.js"></script>
+    <script type="text/javascript" src="http://rorbuilder.info/j/jfr/numeric.js"></script>
+    <script type="text/javascript" src="http://rorbuilder.info/j/jfr/jfr.js"></script>
+    <script type="text/javascript" src="http://rorbuilder.info/j/jaxle.js"></script>
+    <script type="text/javascript" src="http://rorbuilder.info/j/dynarex.js"></script>
+    <script type="text/javascript" src="html5vp.js"></script>
+  </head>
+  <body onload="initData()">
+    <div id="wrap">
+      <object id="slides" data="example/matchbox.xml" type="text/xml" style="display: none;"  ></object>
+      <div id="banner">
+
+      </div>
+      <div id="caption" class="hidden">
+        <ul datasrc="#slides">
+          <li>
+            <a name="{anchor}"><div><p><span datafld="name"></span></p></div></a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="menu" class="">
+        <ol onclick="captionVisible();" datasrc="#slides">
+          <li>
+            <a href="#{anchor}" onclick="highlight(this.parent())">
+              <span datafld="title"></span>
+            </a>
+          </li>
+        </ol>
+      </div>
+      <div id="video">
+        <video id="player" width="640" height="480" controls>
+          <source src="example/matchbox.ogv" type="video/ogg" /><!-- Firefox / Opera / Chrome10 -->
+        </video>
+      </div>
+    </div>
+  </body>
+</html>
